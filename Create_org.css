@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+   
+    font-family: 'Poppins', sans-serif;
+    flex-wrap:wrap ;
+    text-align:center;
+    
+    
+    
+}
+#button{
+    background-color:rgb(220, 221, 221);
+    border-color :rgb(220, 221, 221);
+    border-radius:9px;
+    width: 27em;
+    height: 2.5em;
+
+}
+ h2{
+     font-weight: bolder;
+     font-family: 'Poppins';
+ }
+ h4{
+     margin-bottom:9px;
+ }
+ h3{
+     margin-bottom:2em;
+ }
+ #Create{
+     background-color:#50BBA2 ;
+     border-color: #50BBA2;
+     height:2.1em;
+     width:9em;
+     border-radius:0.7em;
+     color:white;
+     font-weight: 800,bold;
+     font-family:'Poppins';     
+     margin-right:0.3px;
+     margin-top:2em;
+     cursor: pointer;
+     
+     
+ }
+
+
+ 
+ #Dropdown {
+    position: relative;
+    display: inline-block;
+    width:13em;
+    height:2em;
+    border-radius:0.5em;
+    background-color:rgb(220, 221, 221);
+    border-color:rgb(220, 221, 221);
+    font-weight:bold;
+    
+ }
+
+ 
