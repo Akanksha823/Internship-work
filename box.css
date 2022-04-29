@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family:"poppins"; */
+    flex-wrap:wrap ;
+    
+}
+body{
+background-color: #ECECEC; ;
+}
+.container{
+    border-color:black;
+    width: 35em;
+    background-color: white;
+    height: 34em;
+    display: flex;
+    justify-content: center;   
+    /* border-radius:35px; */
+    border: 1px solid rgb(226, 224, 224);
+    margin-top: 1em;;
+    margin-left:24em;
+    
+}
+ 
+.searchbar{
+    height:2em;
+    /* padding: 12px; */
+    width:18em;
+    margin-left:2em;
+    background-color: #ECECEC;
+    border:none;
+    border-radius: 5px;
+}
+nav{
+    
+    padding:10px 40px 10px 70px;
+    border:1px solid rgb(240, 244, 245);
+    border-left:none;
+    border-right:none;
+    top:10em;
+    background-color: white;
+
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    flex-wrap:none;
+    align-items: center;
+    justify-content: center;
+}
+nav ul div.items{
+    padding:0 5px;
+    display:inline-flex;
+    
+}
+nav ul div.items a {
+    text-decoration: none;
+    font-size: 18px;
+    padding:1 12px;
+    color:black;
+    font-size:1.01em;
+    margin:2em;
+    font-weight:bold;
+
+}
+
+.Search{
+    width:20em;
+    height:3em;
+   background-color:rgb(173, 172, 172);
+   border-radius:0.3em;   
+   color:rgb(245, 244, 244);
+   position: relative;
+}
+
+.search-icon{
+    position: fixed;
+    top: 3em;
+    right: 0em;
+    left: 79em;   
+}
+
+.Project_name{
+    width:30em;
+    height:2em;
+    border-radius:0.5em;
+    border-color:rgb(245, 246, 247);
+    margin-bottom:1em;
+    border-color:#bebbbb;
+} 
+
+h5{
+    font-size:1em;
+    margin-bottom:0.5em;
+}
+.Project_Description{
+    width:30em;
+    height:4em;
+    border-radius:0.5em;
+    border-color:rgb(249, 251, 252);
+    margin-bottom:1em;
+    border-color:#b3aeae;
+}
+
+#Dropdown{
+    width:20em;
+    height:2em;
+    border-color:rgb(219, 219, 219);
+    border-radius: 0.5em;
+    color:#50BBA2;
+    margin-bottom:0.2em;
+}
+.Audience{
+    border-color:white;
+    margin-bottom:0.7em;
+    
+}
+.Research-Method{
+    border-color:white;
+    margin-bottom:0.7em;
+}
+.watch{
+    margin-top:2px;
+    width:13em;
+    height:2em;
+    border-radius: 0.3em;;
+}
+.block{
+    /* background-color:rgb(253, 253, 253); */
+    width:13em;
+    height:2em;
+    border-radius: 0.3em;
+}
+.btn1{
+    width:6em;
+    margin-left:25em;
+    height:2em;
+    border: 0;
+    margin-top:2em;
+    background-color: #656565;
+    cursor: pointer;
+    /* border-color:#656565 ; */
+    border-radius:0.5em;
+}
+.btn2{
+    width:6em;
+    margin-left:1em;
+    height:2em;
+    border: 0;
+    cursor: pointer;
+    background-color: #50BBA2;
+    border-color: #50BBA2;
+    border-radius:0.5em;
+}
+.Inline{
+    display: inline-block;
+
+    margin-right: 5em;
+    /* margin-top: 10px; */
+
+    /* outline: 2px solid rgb(255, 0, 0); */
+}
+
+.box{
+    margin-top: 15px;
+}
+.item{
+    margin:1em;
+}
+
